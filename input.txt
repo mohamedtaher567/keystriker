@@ -1,0 +1,1 @@
+lsblk -no PKNAME $(lsblk -no NAME,MOUNTPOINT | awk '$2=="/boot"{print "/dev/"$1}')
