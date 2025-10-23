@@ -7,3 +7,4 @@ Steps to utilize the keystriker tool:
 4. Create a file that has the content you want the key striker tool to simulate you typing it. For example: `input.txt` -> paste inside the content you want to type.
 5. Run the jar `java -jar keystriker.jar input.txt` and in 2 seconds focus on the area you want to type in and the tool will simulate the text typing into the focused area.
  
+Currently, the regular code is the one effective as the AI powered one is much slower.
